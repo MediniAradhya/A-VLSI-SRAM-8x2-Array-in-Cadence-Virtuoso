@@ -1,0 +1,2156 @@
+
+            Assura (R) Physical Verification Version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12
+            Release 4.1_USR5_HF16
+
+Copyright (c) Cadence Design Systems. All rights reserved.
+@(#)$CDS: assura_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:42 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/assura on Fri Dec  6 12:59:27 2019
+
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/aveng /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -exec1 -LVS -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib
+@(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:42 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/aveng on Fri Dec  6 12:59:28 2019
+
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+ Summary Report: Integrated.sum
+ RSF           : /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf
+ Library Name  : Combined_all
+ CDSLIB Path   : "/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib"
+ Cell Name     : Integrated
+ View Name     : layout
+ Rules File    : /ecel/apps/cds/ic617/local/GPDK045/assura/./extract.rul
+ Options       : -exec1 -LVS -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib 
+ Work Directory: .
+ Operating Mode: Legacy Mode is Off
+
+
+Starting dfIIToVdb...
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+@(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:45 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/dfIIToVdb on Fri Dec  6 12:59:28 2019
+
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Compiling rules...
+
+Loading gpdk180/libInit.il ...
+	Loading context 'gpdk180' from library 'gpdk180' ... done!
+	Loading gpdk180/.cdsenv ... *WARNING* Cannot find /ecel/apps/cds/assura/tools.lnx86/dfII/etc/tools/spectre directory to load environment variables
+done!
+	Loading gpdk180/libInitCustomExit.il ... 
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 180nm PDK                      *           
+  *                        (gpdk180)                          *           
+  *                                                           *           
+  *                       Version 3.2                         *           
+  *                                                           *           
+  *************************************************************           
+done!
+Loaded gpdk180/libInit.il successfully!
+*WARNING* Cannot find /ecel/apps/cds/assura/tools.lnx86/dfII/etc/tools/hspiceD directory to load environment variables
+WARNING LVS Run detected.
+Non-legacy mode has been disabled for this LVS run
+Checking out license for Assura_LVS
+*WARNING* Failed to obtain license for Assura_LVS
+No Assura license available.
+Checking out license for Phys_Ver_Sys_LVS_XL
+
+Reading the design data...
+
+
+
+Finished dfIIToVdb.
+
+Building the VDB part 2 in background mode.
+
+Building tables for LVS Preprocessing in background mode.
+
+
+Starting /apps/cds/assura/tools.lnx86/assura/bin/vdbToCells . Integrated
+
+Finished /apps/cds/assura/tools.lnx86/assura/bin/vdbToCells
+
+Starting Nvn PreExtraction...
+
+Starting /apps/cds/assura/tools.lnx86/assura/bin/nvn /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -preExtract -exec1 -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:45 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+run on ece-n241-lnx09 at Fri Dec  6 12:59:29 2019
+
+*************************************************************** 
+
+  GENERIC PDK Assura Compare Rules file 
+  Cadence Design Systems shall not be liable for the accuracy 
+  of this LVS rule file or its ability to capture errors. 
+  The user is responsible for thoroughly testing and 
+  implementing its features. 
+
+*************************************************************** 
+
+Reading schematic network
+ running dfIIToVldb -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.vlr /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+@(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:45 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/dfIIToVldb on Fri Dec  6 12:59:30 2019
+
+
+*************************************************************** 
+
+  GENERIC PDK Assura Compare Rules file 
+  Cadence Design Systems shall not be liable for the accuracy 
+  of this LVS rule file or its ability to capture errors. 
+  The user is responsible for thoroughly testing and 
+  implementing its features. 
+
+*************************************************************** 
+
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+Top Cell Library: "Combined_all"
+Top Cell Name: "Integrated"
+Top Cell View: "schematic"
+Output Data Base Name: "/ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.sdb"
+Simulator Name: "auLvs"
+Failed to obtain license for "Assura_LVS". 
+Checking out license for Phys_Ver_Sys_LVS_XL
+ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 5280@licsvr.ece.ufl.edu:5280@licsvr.ece.ufl.edu:27000@licsvr.ece.ufl.edu:27002@licsvr.ece.ufl.edu:1717@licsvr.ece.ufl.edu:1055@licsvr.ece.ufl.edu:28001@licsvr.ece.ufl.edu. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-02005' for more information.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+View List: "auLvs schematic symbol"
+Stop List: "auLvs"
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Net Listing Mode is Analog
+writing /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.sdb
+ inputting /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.sdb
+Reading layout network
+ inputting network Integrated.ldb
+Preprocessing schematic network phase 1
+Preprocessing layout network phase 1
+ WARNING (AVLVSNN-10034) : bindingFile/bind rule - schematic cell 'g45inds' is not found and
+ will be considered a dummy cell. The default binding for layout cell 'g45inds(Generic)' will be broken.
+ WARNING (AVLVSNN-10034) : bindingFile/bind rule - schematic cell 'g45inda' is not found and
+ will be considered a dummy cell. The default binding for layout cell 'g45inda(IND)' will be broken.
+Preprocessing schematic network phase 2
+Preprocessing layout network phase 2
+cpu=0.00m  wall=0.02m  mem=103.93mb
+
+Finished /apps/cds/assura/tools.lnx86/assura/bin/nvn
+
+Executing: bulk = cellBoundary(root)
+
+Building the VDB part 3 in background mode.
+
+Finished building the VDB. VDB build times for main process:
+cpu: 0.07  elap: 3  pf: 0  in: 0  out: 88  virt: 101M  phys: 570M
+
+Running the Task Processor, 9 cells, 2906 steps...
+
+Top Cell is 'Integrated layout Combined_all'
+
+Executing: Bondpad = geomOr(Bondpad Bondpad_pin)
+
+Executing: CapMetal = geomOr(CapMetal CapMetal_pin)
+
+Executing: Metal1 = geomOr(Metal1 Metal1_pin)
+
+Executing: Metal2 = geomOr(Metal2 Metal2_pin)
+
+Executing: Metal3 = geomOr(Metal3 Metal3_pin)
+
+Executing: Metal4 = geomOr(Metal4 Metal4_pin)
+
+Executing: Metal5 = geomOr(Metal5 Metal5_pin)
+
+Executing: Metal6 = geomOr(Metal6 Metal6_pin)
+
+Executing: Metal7 = geomOr(Metal7 Metal7_pin)
+
+Executing: Metal8 = geomOr(Metal8 Metal8_pin)
+
+Executing: Metal9 = geomOr(Metal9 Metal9_pin)
+
+Executing: Metal10 = geomOr(Metal10 Metal10_pin)
+
+Executing: Metal11 = geomOr(Metal11 Metal11_pin)
+
+Executing: Nburied = geomOr(Nburied Nburied_pin)
+
+Executing: Nimp = geomOr(Nimp Nimp_pin)
+
+Executing: Nwell = geomOr(Nwell Nwell_pin)
+
+Executing: Pimp = geomOr(Pimp Pimp_pin)
+
+Executing: Poly = geomOr(Poly Poly_pin)
+
+Executing: NOD = geomAnd(Nimp Oxide)
+
+Executing: POD = geomAnd(Oxide Pimp)
+
+Executing: _npn2 = geomAnd(NPN2dum NPNdummy)
+
+Executing: _npn5 = geomAnd(NPN5dum NPNdummy)
+
+Executing: _npn10 = geomAnd(NPN10dum NPNdummy)
+
+Executing: _resm1 = geomAnd(M1Resdum Metal1)
+
+Executing: _resm2 = geomAnd(M2Resdum Metal2)
+
+Executing: _resm3 = geomAnd(M3Resdum Metal3)
+
+Executing: _resm4 = geomAnd(M4Resdum Metal4)
+
+Executing: _resm5 = geomAnd(M5Resdum Metal5)
+
+Executing: _resm6 = geomAnd(M6Resdum Metal6)
+
+Executing: _resm7 = geomAnd(M7Resdum Metal7)
+
+Executing: _resm8 = geomAnd(M8Resdum Metal8)
+
+Executing: _resm9 = geomAnd(M9Resdum Metal9)
+
+Executing: _resm10 = geomAnd(M10Resdum Metal10)
+
+Executing: _resm11 = geomAnd(M11Resdum Metal11)
+
+Executing: bp_tap = geomAnd(Bondpad Metal9)
+
+Executing: cont_poly = geomAnd(Cont Poly)
+
+Executing: ind10 = geomAnd(INDdummy Metal10)
+
+Executing: ind_via = geomAnd(INDdummy Via10)
+
+Executing: metal1_conn = geomAndNot(Metal1 M1Resdum)
+
+Executing: metal2_conn = geomAndNot(Metal2 M2Resdum)
+
+Executing: metal3_conn = geomAndNot(Metal3 M3Resdum)
+
+Executing: metal4_conn = geomAndNot(Metal4 M4Resdum)
+
+Executing: metal5_conn = geomAndNot(Metal5 M5Resdum)
+
+Executing: metal6_conn = geomAndNot(Metal6 M6Resdum)
+
+Executing: metal7_conn = geomAndNot(Metal7 M7Resdum)
+
+Executing: metal8_conn = geomAndNot(Metal8 M8Resdum)
+
+Executing: metal9_conn = geomAndNot(Metal9 M9Resdum)
+
+Executing: nactive = geomCat(NOD)
+
+Executing: nb_tap = geomAnd(Nburied Nwell)
+
+Executing: nwell_conn = geomAndNot(Nwell ResWdum)
+
+Executing: pactive = geomCat(POD)
+
+Executing: pdiff = geomAndNot(pactive Poly)
+
+Executing: pdiff_conn = geomAndNot(pdiff Resdum)
+
+Executing: cont_pdiff = geomAnd(Cont pdiff_conn)
+
+Executing: poly_conn = geomAndNot(Poly Resdum)
+
+Executing: ndiff = geomAndNot(nactive poly_conn)
+
+Executing: ndiff_conn = geomAndNot(ndiff Resdum)
+
+Executing: cont_ndiff = geomAnd(Cont ndiff_conn)
+
+Executing: via10_cap = geomAnd(CapMetal Via10)
+
+Executing: via10_nocap = geomAndNot(Via10 CapMetal)
+
+Executing: L40182 = geomAnd(Nwell SiProt)
+
+Executing: _resnwoxide = geomAnd(L40182 ResWdum)
+
+Executing: L25544 = geomAvoiding(Nwell SiProt)
+
+Executing: _resnwsti = geomAnd(L25544 ResWdum)
+
+Executing: L68803 = geomAnd(BJTdum pdiff_conn)
+
+Executing: _vpnp2 = drc(L68803 (area == 4))
+
+Executing: _vpnp5 = drc(L68803 (area == 25))
+
+Executing: _vpnp10 = drc(L68803 (area == 100))
+
+Executing: L13465 = geomAnd(INDdummy Metal11)
+
+Executing: L73046 = geomSize(L13465 0.01)
+
+Executing: ind11 = geomSize(L73046 -0.01)
+
+Executing: L72738 = geomEnclose(INDdummy ind11 (keep >= 2))
+
+Executing: _ind_a = geomAndNot(INDdummy L72738)
+
+Executing: _ind_s = geomAvoiding(INDdummy _ind_a)
+
+Executing: L17074 = geomOr(INDdummy M10Resdum)
+
+Executing: metal10_conn = geomAndNot(Metal10 L17074)
+
+Executing: L86607 = geomOr(INDdummy M11Resdum)
+
+Executing: metal11_conn = geomAndNot(Metal11 L86607)
+
+Executing: L92042 = geomAnd(metal10_conn metal11_conn)
+
+Executing: _mimcap = geomButtOrOver(CapMetal L92042)
+
+Executing: L61645 = geomAnd(NPNdummy ndiff_conn)
+
+Executing: npn_emit = geomAndNot(L61645 Nwell)
+
+Executing: L98077 = geomAnd(Psub pdiff_conn)
+
+Executing: pnp_emit = geomAnd(L98077 PNPdummy)
+
+Executing: L47735 = geomOr(CapMetal INDdummy)
+
+Executing: via10_nodev = geomAndNot(Via10 L47735)
+
+Executing: L98377 = geomGetAngledEdge(IND2dummy (keep == 0))
+
+Executing: L71536 = geomSize(L98377 0.01 edges)
+
+Executing: L93547 = geomAndNot(L71536 IND2dummy)
+
+Executing: ind2_width = geomInside(L93547 ind11)
+
+Executing: L83584 = geomOr(ind10 ind11)
+
+Executing: L87155 = geomHoles(L83584 innermost)
+
+Executing: ind_hole = geomGetVertex(L87155 (keep < 14))
+
+Executing: L74405 = geomAnd(Nwell ndiff_conn)
+
+Executing: L28555 = geomAnd(NPNdummy Psub)
+
+Executing: ntap = geomAndNot(L74405 L28555)
+
+Executing: L65704 = geomAndNot(pdiff_conn Nwell)
+
+Executing: ptap = geomAndNot(L65704 PNPdummy)
+
+Executing: L54696 = geomAnd(DIOdummy Oxide)
+
+Executing: L77738 = geomAnd(L54696 Oxide_thk)
+
+Executing: L73169 = geomAnd(L77738 Nzvt)
+
+Executing: _ndio_2v_nvt = geomAndNot(L73169 Nwell)
+
+Executing: L97435 = geomAndNot(L54696 Oxide_thk)
+
+Executing: L22301 = geomAnd(L97435 Nhvt)
+
+Executing: _ndio_hvt = geomAndNot(L22301 Nwell)
+
+Executing: L18457 = geomAnd(L97435 Nlvt)
+
+Executing: _ndio_lvt = geomAndNot(L18457 Nwell)
+
+Executing: L5003 = geomAnd(L97435 Nzvt)
+
+Executing: _ndio_nvt = geomAndNot(L5003 Nwell)
+
+Executing: L62719 = geomAnd(L97435 Phvt)
+
+Executing: _pdio_hvt = geomAnd(L62719 Nwell)
+
+Executing: L58875 = geomAnd(L97435 Plvt)
+
+Executing: _pdio_lvt = geomAnd(L58875 Nwell)
+
+Executing: L28394 = geomAndNot(Oxide Oxide_thk)
+
+Executing: L66375 = geomAnd(L28394 Poly)
+
+Executing: L29970 = geomAnd(L66375 Pimp)
+
+Executing: _pmos1v_hvt = geomAnd(L29970 Phvt)
+
+Executing: _pmos1v_lvt = geomAnd(L29970 Plvt)
+
+Executing: L52573 = geomAnd(NOD SiProt)
+
+Executing: L17877 = geomAnd(L52573 Resdum)
+
+Executing: _resnsndiff = geomAndNot(L17877 Nwell)
+
+Executing: L5240 = geomAnd(Poly SiProt)
+
+Executing: L1378 = geomAnd(L5240 Nimp)
+
+Executing: L66582 = geomAnd(L1378 Resdum)
+
+Executing: _resnsnpoly = geomAndNot(L66582 Nwell)
+
+Executing: _resnsnpoly_nw = geomAnd(L66582 Nwell)
+
+Executing: L79583 = geomAnd(POD SiProt)
+
+Executing: L2769 = geomAnd(L79583 Resdum)
+
+Executing: _resnspdiff = geomAnd(L2769 Nwell)
+
+Executing: L60960 = geomAnd(L5240 Pimp)
+
+Executing: L4294 = geomAnd(L60960 Resdum)
+
+Executing: _resnsppoly = geomAndNot(L4294 Nwell)
+
+Executing: _resnsppoly_nw = geomAnd(L4294 Nwell)
+
+Executing: L51921 = geomAvoiding(NOD SiProt)
+
+Executing: L63811 = geomAnd(L51921 Resdum)
+
+Executing: _ressndiff = geomAndNot(L63811 Nwell)
+
+Executing: L90381 = geomAndNot(Poly SiProt)
+
+Executing: L49196 = geomAnd(L90381 Nimp)
+
+Executing: L17878 = geomAnd(L49196 Resdum)
+
+Executing: _ressnpoly = geomAndNot(L17878 Nwell)
+
+Executing: _ressnpoly_nw = geomAnd(L17878 Nwell)
+
+Executing: L24911 = geomAvoiding(POD SiProt)
+
+Executing: L83336 = geomAnd(L24911 Resdum)
+
+Executing: _resspdiff = geomAnd(L83336 Nwell)
+
+Executing: L8778 = geomAnd(L90381 Pimp)
+
+Executing: L54937 = geomAnd(L8778 Resdum)
+
+Executing: _ressppoly = geomAndNot(L54937 Nwell)
+
+Executing: _ressppoly_nw = geomAnd(L54937 Nwell)
+
+Executing: L54420 = geomAnd(ind10 ind11)
+
+Executing: L42364 = geomAnd(L54420 _ind_s)
+
+Executing: L12760 = geomButtOnly(L42364 ind_hole)
+
+Executing: ind_ct = geomButtOrOver(L12760 Via10)
+
+Executing: L13648 = geomAnd(Via10 _ind_s)
+
+Executing: ind_via_diva = geomAndNot(L13648 ind_ct)
+
+Executing: L24975 = geomAnd(Oxide Oxide_thk)
+
+Executing: L98842 = geomAnd(L24975 Poly)
+
+Executing: L73768 = geomAnd(L98842 Pimp)
+
+Executing: L8948 = geomOr(Cap3dum Capdum)
+
+Executing: _pmos2v = geomAndNot(L73768 L8948)
+
+Executing: L3699 = geomGetAngledEdge(ind_ct (keep == 0))
+
+Executing: L12066 = geomSize(L3699 0.1 edges)
+
+Executing: L64022 = geomAnd(L12066 ind10)
+
+Executing: L30099 = geomGetEdge(L64022 butting ind_hole)
+
+Executing: L43958 = geomSize(L30099 101 edges)
+
+Executing: ind_rad = geomAnd(L43958 ind_hole)
+
+Executing: pwell_iso = geomAvoiding(geomAnd(geomGetHoled(Nwell) Nburied) geomGetHoled(Nb...
+
+Executing: psub_R = geomAndNot(Psub geomSize(Psub -0.001))
+
+Executing: pwell_iso_R = geomAndNot(pwell_iso geomSize(pwell_iso -0.001))
+
+Executing: pwell = geomAndNot(geomAndNot(bulk pwell_iso_R) psub_R)
+
+Executing: L89552 = geomAnd(L66375 Nimp)
+
+Executing: L70180 = geomAnd(L89552 Nzvt)
+
+Executing: L21328 = geomAndNot(L70180 Nhvt)
+
+Executing: _nmos_12_native = geomAndNot(L21328 Nburied)
+
+Executing: L14186 = geomAnd(L98842 Nimp)
+
+Executing: L15681 = geomAnd(L14186 Nzvt)
+
+Executing: L10869 = geomAndNot(L15681 Nhvt)
+
+Executing: _nmos_25_native = geomAndNot(L10869 Nburied)
+
+Executing: L62041 = geomAnd(L97435 Pimp)
+
+Executing: L28017 = geomAndNot(L62041 Plvt)
+
+Executing: L17166 = geomAndNot(L28017 Phvt)
+
+Executing: _pdio = geomAnd(L17166 Nwell)
+
+Executing: L16131 = geomAnd(L77738 Pimp)
+
+Executing: L48360 = geomAndNot(L16131 Plvt)
+
+Executing: L917 = geomAndNot(L48360 Phvt)
+
+Executing: _pdio_2v = geomAnd(L917 Nwell)
+
+Executing: L31956 = geomSize(IND2dummy 1.0)
+
+Executing: L70261 = geomSize(L31956 4.0)
+
+Executing: L66884 = geomSize(INDdummy -1)
+
+Executing: L26372 = geomAndNot(L70261 L66884)
+
+Executing: L19884 = geomAnd(INDdummy L26372)
+
+Executing: L73859 = geomAndNot(L19884 ind11)
+
+Executing: ind2_sp1 = geomButting(L73859 ind11 (keep == 2))
+
+Executing: L21623 = geomAnd(L97435 Nimp)
+
+Executing: L12020 = geomAndNot(L21623 Nlvt)
+
+Executing: L4397 = geomAndNot(L12020 Nhvt)
+
+Executing: L8315 = geomAndNot(L4397 Nzvt)
+
+Executing: _ndio = geomAndNot(L8315 Nwell)
+
+Executing: L56549 = geomAnd(L77738 Nimp)
+
+Executing: L18325 = geomAndNot(L56549 Nlvt)
+
+Executing: L87119 = geomAndNot(L18325 Nhvt)
+
+Executing: L50344 = geomAndNot(L87119 Nzvt)
+
+Executing: _ndio_2v = geomAndNot(L50344 Nwell)
+
+Executing: L87478 = geomAnd(L89552 Nhvt)
+
+Executing: L49009 = geomOr(Nlvt Nzvt)
+
+Executing: L13756 = geomOr(L49009 Nburied)
+
+Executing: _nmos1v_hvt = geomAndNot(L87478 L13756)
+
+Executing: L83634 = geomAnd(L89552 Nlvt)
+
+Executing: L25035 = geomOr(Nhvt Nzvt)
+
+Executing: L68361 = geomOr(L25035 Nburied)
+
+Executing: _nmos1v_lvt = geomAndNot(L83634 L68361)
+
+Executing: L25441 = geomAndNot(L89552 Nzvt)
+
+Executing: L70734 = geomAndNot(L25441 Nhvt)
+
+Executing: L8530 = geomAndNot(L70734 Nburied)
+
+Executing: _nmoscap1v = geomAnd(Capdum L8530)
+
+Executing: L55994 = geomAndNot(L14186 Nzvt)
+
+Executing: L55604 = geomAndNot(L55994 Nhvt)
+
+Executing: L64343 = geomAndNot(L55604 Nburied)
+
+Executing: _nmoscap2v = geomAnd(Capdum L64343)
+
+Executing: L20537 = geomOr(Phvt Plvt)
+
+Executing: L86632 = geomOr(Capdum L20537)
+
+Executing: L85139 = geomOr(Cap3dum L86632)
+
+Executing: _pmos1v = geomAndNot(L29970 L85139)
+
+Executing: L5017 = geomAndNot(L29970 Nzvt)
+
+Executing: L28655 = geomAndNot(L5017 Nhvt)
+
+Executing: L38143 = geomAndNot(L28655 Nburied)
+
+Executing: _pmoscap1v = geomAnd(Capdum L38143)
+
+Executing: L4203 = geomAndNot(L73768 Nzvt)
+
+Executing: L16207 = geomAndNot(L4203 Nhvt)
+
+Executing: L72451 = geomAndNot(L16207 Nburied)
+
+Executing: _pmoscap2v = geomAnd(Capdum L72451)
+
+Executing: _nmos_25 = geomAndNot(L64343 L8948)
+
+Executing: L40124 = geomOr(L25035 Nlvt)
+
+Executing: L71361 = geomOr(L40124 Nburied)
+
+Executing: L32193 = geomOr(Capdum L71361)
+
+Executing: L26526 = geomOr(Cap3dum L32193)
+
+Executing: _nmos1v = geomAndNot(L89552 L26526)
+
+Executing: SPOKE_T?460 = geomOr(ind10)
+
+Executing: TMP_T?461 = geomOr(ind11)
+
+Executing: TMP_T?462 = geomInside(TMP_T?461 SPOKE_T?460)
+
+Executing: SPIRAL_T?463 = geomAndNot(TMP_T?461 TMP_T?462)
+
+Executing: SPRL_AND_SPK_T?464 = geomAnd(SPIRAL_T?463 SPOKE_T?460)
+
+Executing: CONN_REGION_T?465 = geomEnclose(SPRL_AND_SPK_T?464 ind_via)
+
+Executing: SPRL_CTR_T?467 = X_innerDiaErrLyr_g45inda = X_spacingErrLyr_g45inda = X_width...
+
+Executing: GOOD_SPRL_SPK_CONN_T?471 = geomOverlap(CONN_REGION_T?465 SPRL_CTR_T?467)
+
+Executing: RECOG_NEW_T?472 = geomEnclose(_ind_a GOOD_SPRL_SPK_CONN_T?471)
+
+Executing: joinErrLyr_g45inda = geomAndNot(_ind_a RECOG_NEW_T?472)
+	   errorLayer(joinErrLyr_g45inda "SI g45inda connectionErrors")
+
+Executing: spacingErrLyr_g45inda = geomEnclose(_ind_a X_spacingErrLyr_g45inda)
+	   errorLayer(spacingErrLyr_g45inda "SI g45inda spacingErrors")
+
+Executing: innerDiaErrLyr_g45inda = geomEnclose(_ind_a X_innerDiaErrLyr_g45inda)
+	   errorLayer(innerDiaErrLyr_g45inda "SI g45inda innerDiameterErrors")
+
+Executing: widthErrLyr_g45inda = geomEnclose(_ind_a X_widthErrLyr_g45inda)
+	   errorLayer(widthErrLyr_g45inda "SI g45inda widthErrors")
+
+Executing: SPRL_T?478 = geomOverlap(ind11 GOOD_SPRL_SPK_CONN_T?471)
+
+Executing: SPK_T?479 = geomOverlap(ind10 GOOD_SPRL_SPK_CONN_T?471)
+
+Executing: geomConnect((via bp_tap Bondpad metal11_conn) (via via10_cap metal11_conn Cap...
+ See the label report in "Integrated.erc" file for details.
+
+
+Executing: geomStamp(ptap pdiff_conn error)
+
+Executing: geomStamp(pwell ptap error)
+
+Executing: geomStamp(ntap ndiff_conn error)
+
+Executing: geomStamp(nwell_conn ntap error)
+
+Executing: geomStamp(nb_tap nwell_conn error)
+
+Executing: geomStamp(Nburied nb_tap error)
+
+Executing: geomConnect((buttOrOver ind11 metal11_conn) (via ind_via_diva ind11 ind10) (v...
+ See the label report in "Integrated.erc" file for details.
+
+
+Executing: geomStamp(ptap pdiff_conn error)
+
+Executing: geomStamp(pwell ptap error)
+
+Executing: geomStamp(ntap ndiff_conn error)
+
+Executing: geomStamp(nwell_conn ntap error)
+
+Executing: geomStamp(nb_tap nwell_conn error)
+
+Executing: geomStamp(Nburied nb_tap error)
+
+Executing: geomStamp(SPRL_T?478 ind11)
+
+Executing: geomStamp(SPK_T?479 ind10)
+
+Executing: DEVICE_LAYER_RECOG_NEW_T?472_SI_1 = _extractSIDevice("g45inda" RECOG_NEW_T?47...
+
+Executing: widthValLyr_g45inda = _measureSIParameter((width IND_SPIRAL_T?586) (turnOnSpi...
+
+Executing: spacingValLyr_g45inda = _measureSIParameter((spacing IND_SPIRAL_T?586) (turnO...
+
+Executing: numTurnValLyr_g45inda = _measureSIParameter((turn IND_SPIRAL_T?586) (turnOnSp...
+
+Executing: innerDiaValLyr_g45inda = _measureSIParameter((innerDia IND_SPIRAL_T?586) (tur...
+
+Executing: extractMOS("g45n1svt" _nmos1v (poly_conn "G") (ndiff_conn "S" "D") (pwell "B"...
+         3 'g45n1svt' created in cell 'nor layout Combined_all'.
+         1 'g45n1svt' created in cell 'inverter layout Combined_all'.
+         2 'g45n1svt' created in cell 'onetotwo layout Combined_all'.
+         4 'g45n1svt' created in cell 'Sense_AMP layout Combined_all'.
+        68 'g45n1svt' created in cell 'SRAM8x2 SRAM_8x2_Layout Combined_all'.
+        21 'g45n1svt' created in cell 'RD_WR layout Combined_all'.
+         5 'g45n1svt' created in cell 'Buffer layout Combined_all'.
+
+Executing: attachParameter(w "w" _nmos1v)
+
+Executing: attachParameter(l "l" _nmos1v)
+
+Executing: attachParameter(ad "ad" _nmos1v)
+
+Executing: attachParameter(as "as" _nmos1v)
+
+Executing: attachParameter(pd "pd" _nmos1v)
+
+Executing: attachParameter(ps "ps" _nmos1v)
+
+Executing: width = measureParameter(length (_nmos1v butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos1v))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45n1hvt" _nmos1v_hvt (poly_conn "G") (ndiff_conn "S" "D") (pwell...
+
+Executing: attachParameter(w "w" _nmos1v_hvt)
+
+Executing: attachParameter(l "l" _nmos1v_hvt)
+
+Executing: attachParameter(ad "ad" _nmos1v_hvt)
+
+Executing: attachParameter(as "as" _nmos1v_hvt)
+
+Executing: attachParameter(pd "pd" _nmos1v_hvt)
+
+Executing: attachParameter(ps "ps" _nmos1v_hvt)
+
+Executing: width = measureParameter(length (_nmos1v_hvt butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos1v_hvt))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45n1lvt" _nmos1v_lvt (poly_conn "G") (ndiff_conn "S" "D") (pwell...
+
+Executing: attachParameter(w "w" _nmos1v_lvt)
+
+Executing: attachParameter(l "l" _nmos1v_lvt)
+
+Executing: attachParameter(ad "ad" _nmos1v_lvt)
+
+Executing: attachParameter(as "as" _nmos1v_lvt)
+
+Executing: attachParameter(pd "pd" _nmos1v_lvt)
+
+Executing: attachParameter(ps "ps" _nmos1v_lvt)
+
+Executing: width = measureParameter(length (_nmos1v_lvt butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos1v_lvt))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45n1nvt" _nmos_12_native (poly_conn "G") (ndiff_conn "S" "D") (p...
+
+Executing: attachParameter(w "w" _nmos_12_native)
+
+Executing: attachParameter(l "l" _nmos_12_native)
+
+Executing: attachParameter(ad "ad" _nmos_12_native)
+
+Executing: attachParameter(as "as" _nmos_12_native)
+
+Executing: attachParameter(pd "pd" _nmos_12_native)
+
+Executing: attachParameter(ps "ps" _nmos_12_native)
+
+Executing: width = measureParameter(length (_nmos_12_native butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos_12_native))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45n2svt" _nmos_25 (poly_conn "G") (ndiff_conn "S" "D") (pwell "B...
+
+Executing: attachParameter(w "w" _nmos_25)
+
+Executing: attachParameter(l "l" _nmos_25)
+
+Executing: attachParameter(ad "ad" _nmos_25)
+
+Executing: attachParameter(as "as" _nmos_25)
+
+Executing: attachParameter(pd "pd" _nmos_25)
+
+Executing: attachParameter(ps "ps" _nmos_25)
+
+Executing: width = measureParameter(length (_nmos_25 butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos_25))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45n2nvt" _nmos_25_native (poly_conn "G") (ndiff_conn "S" "D") (p...
+
+Executing: attachParameter(w "w" _nmos_25_native)
+
+Executing: attachParameter(l "l" _nmos_25_native)
+
+Executing: attachParameter(ad "ad" _nmos_25_native)
+
+Executing: attachParameter(as "as" _nmos_25_native)
+
+Executing: attachParameter(pd "pd" _nmos_25_native)
+
+Executing: attachParameter(ps "ps" _nmos_25_native)
+
+Executing: width = measureParameter(length (_nmos_25_native butting ndiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_nmos_25_native))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45ncap1" _nmoscap1v (poly_conn "G") (ndiff_conn "S" "D") (pwell ...
+
+Executing: attachParameter(w "w" _nmoscap1v)
+
+Executing: attachParameter(l "l" _nmoscap1v)
+
+Executing: attachParameter(ad "ad" _nmoscap1v)
+
+Executing: attachParameter(as "as" _nmoscap1v)
+
+Executing: attachParameter(pd "pd" _nmoscap1v)
+
+Executing: attachParameter(ps "ps" _nmoscap1v)
+
+Executing: extractMOS("g45ncap2" _nmoscap2v (poly_conn "G") (ndiff_conn "S" "D") (pwell ...
+
+Executing: attachParameter(w "w" _nmoscap2v)
+
+Executing: attachParameter(l "l" _nmoscap2v)
+
+Executing: attachParameter(ad "ad" _nmoscap2v)
+
+Executing: attachParameter(as "as" _nmoscap2v)
+
+Executing: attachParameter(pd "pd" _nmoscap2v)
+
+Executing: attachParameter(ps "ps" _nmoscap2v)
+
+Executing: extractMOS("g45p1svt" _pmos1v (poly_conn "G") (pdiff_conn "S" "D") (nwell_con...
+         3 'g45p1svt' created in cell 'nor layout Combined_all'.
+         1 'g45p1svt' created in cell 'inverter layout Combined_all'.
+         2 'g45p1svt' created in cell 'onetotwo layout Combined_all'.
+         3 'g45p1svt' created in cell 'Sense_AMP layout Combined_all'.
+        36 'g45p1svt' created in cell 'SRAM8x2 SRAM_8x2_Layout Combined_all'.
+        11 'g45p1svt' created in cell 'RD_WR layout Combined_all'.
+         5 'g45p1svt' created in cell 'Buffer layout Combined_all'.
+
+Executing: attachParameter(w "w" _pmos1v)
+
+Executing: attachParameter(l "l" _pmos1v)
+
+Executing: attachParameter(ad "ad" _pmos1v)
+
+Executing: attachParameter(as "as" _pmos1v)
+
+Executing: attachParameter(pd "pd" _pmos1v)
+
+Executing: attachParameter(ps "ps" _pmos1v)
+
+Executing: width = measureParameter(length (_pmos1v butting pdiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_pmos1v))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45p1hvt" _pmos1v_hvt (poly_conn "G") (pdiff_conn "S" "D") (nwell...
+
+Executing: attachParameter(w "w" _pmos1v_hvt)
+
+Executing: attachParameter(l "l" _pmos1v_hvt)
+
+Executing: attachParameter(ad "ad" _pmos1v_hvt)
+
+Executing: attachParameter(as "as" _pmos1v_hvt)
+
+Executing: attachParameter(pd "pd" _pmos1v_hvt)
+
+Executing: attachParameter(ps "ps" _pmos1v_hvt)
+
+Executing: width = measureParameter(length (_pmos1v_hvt butting pdiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_pmos1v_hvt))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45p1lvt" _pmos1v_lvt (poly_conn "G") (pdiff_conn "S" "D") (nwell...
+
+Executing: attachParameter(w "w" _pmos1v_lvt)
+
+Executing: attachParameter(l "l" _pmos1v_lvt)
+
+Executing: attachParameter(ad "ad" _pmos1v_lvt)
+
+Executing: attachParameter(as "as" _pmos1v_lvt)
+
+Executing: attachParameter(pd "pd" _pmos1v_lvt)
+
+Executing: attachParameter(ps "ps" _pmos1v_lvt)
+
+Executing: width = measureParameter(length (_pmos1v_lvt butting pdiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_pmos1v_lvt))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45p2svt" _pmos2v (poly_conn "G") (pdiff_conn "S" "D") (nwell_con...
+
+Executing: attachParameter(w "w" _pmos2v)
+
+Executing: attachParameter(l "l" _pmos2v)
+
+Executing: attachParameter(ad "ad" _pmos2v)
+
+Executing: attachParameter(as "as" _pmos2v)
+
+Executing: attachParameter(pd "pd" _pmos2v)
+
+Executing: attachParameter(ps "ps" _pmos2v)
+
+Executing: width = measureParameter(length (_pmos2v butting pdiff_conn) 0.5)
+
+Executing: area = measureParameter(area (_pmos2v))
+
+Executing: w = calculateParameter((width * 1e-06))
+
+Executing: l = calculateParameter(((area / width) * 1e-06))
+
+Executing: gL = calculateParameter((len * 1000000.0))
+
+Executing: gW = calculateParameter((wid * 1000000.0))
+
+Executing: measureSTI(gate activeArea 50 (output isa isb) (calculateExp (sw / gW / (sa + (gL * 0.5))) (sw / gW / (sb + (gL * 0.5)))))
+
+Executing: SA = calculateParameter((((1 / isa) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SA "sa")
+
+Executing: SB = calculateParameter((((1 / isb) - (0.5 * gL)) * 1e-06))
+
+Executing: nameParameter(SB "sb")
+
+Executing: SCC_raw = SCB_raw = SCA_raw = measureProximity2(gate mosBase 5.0 (output SCA_...
+
+Executing: sca = calculateParameter(((((1 / wid) * 1) / len) * SCA_raw))
+
+Executing: scb = calculateParameter(((((1 / wid) * 1) / len) * SCB_raw))
+
+Executing: scc = calculateParameter(((((1 / wid) * 1) / len) * SCC_raw))
+
+Executing: attachParameter(sca "sca" gate)
+
+Executing: attachParameter(scb "scb" gate)
+
+Executing: attachParameter(scc "scc" gate)
+
+Executing: extractMOS("g45pcap1" _pmoscap1v (poly_conn "G") (pdiff_conn "S" "D") (nwell_...
+
+Executing: attachParameter(w "w" _pmoscap1v)
+
+Executing: attachParameter(l "l" _pmoscap1v)
+
+Executing: attachParameter(ad "ad" _pmoscap1v)
+
+Executing: attachParameter(as "as" _pmoscap1v)
+
+Executing: attachParameter(pd "pd" _pmoscap1v)
+
+Executing: attachParameter(ps "ps" _pmoscap1v)
+
+Executing: extractMOS("g45pcap2" _pmoscap2v (poly_conn "G") (pdiff_conn "S" "D") (nwell_...
+
+Executing: attachParameter(w "w" _pmoscap2v)
+
+Executing: attachParameter(l "l" _pmoscap2v)
+
+Executing: attachParameter(ad "ad" _pmoscap2v)
+
+Executing: attachParameter(as "as" _pmoscap2v)
+
+Executing: attachParameter(pd "pd" _pmoscap2v)
+
+Executing: attachParameter(ps "ps" _pmoscap2v)
+
+Executing: extractRES("g45rm1" _resm1 (metal1_conn "PLUS" "MINUS") (spiceModel "g45rm1")...
+
+Executing: attachParameter(w "w" _resm1)
+
+Executing: attachParameter(wSim "wSim" _resm1)
+
+Executing: attachParameter(l "l" _resm1)
+
+Executing: attachParameter(lSim "lSim" _resm1)
+
+Executing: extractRES("g45rm2" _resm2 (metal2_conn "PLUS" "MINUS") (spiceModel "g45rm2")...
+
+Executing: attachParameter(w "w" _resm2)
+
+Executing: attachParameter(wSim "wSim" _resm2)
+
+Executing: attachParameter(l "l" _resm2)
+
+Executing: attachParameter(lSim "lSim" _resm2)
+
+Executing: extractRES("g45rm3" _resm3 (metal3_conn "PLUS" "MINUS") (spiceModel "g45rm3")...
+
+Executing: attachParameter(w "w" _resm3)
+
+Executing: attachParameter(wSim "wSim" _resm3)
+
+Executing: attachParameter(l "l" _resm3)
+
+Executing: attachParameter(lSim "lSim" _resm3)
+
+Executing: extractRES("g45rm4" _resm4 (metal4_conn "PLUS" "MINUS") (spiceModel "g45rm4")...
+
+Executing: attachParameter(w "w" _resm4)
+
+Executing: attachParameter(wSim "wSim" _resm4)
+
+Executing: attachParameter(l "l" _resm4)
+
+Executing: attachParameter(lSim "lSim" _resm4)
+
+Executing: extractRES("g45rm5" _resm5 (metal5_conn "PLUS" "MINUS") (spiceModel "g45rm5")...
+
+Executing: attachParameter(w "w" _resm5)
+
+Executing: attachParameter(wSim "wSim" _resm5)
+
+Executing: attachParameter(l "l" _resm5)
+
+Executing: attachParameter(lSim "lSim" _resm5)
+
+Executing: extractRES("g45rm6" _resm6 (metal6_conn "PLUS" "MINUS") (spiceModel "g45rm6")...
+
+Executing: attachParameter(w "w" _resm6)
+
+Executing: attachParameter(wSim "wSim" _resm6)
+
+Executing: attachParameter(l "l" _resm6)
+
+Executing: attachParameter(lSim "lSim" _resm6)
+
+Executing: extractRES("g45rm7" _resm7 (metal7_conn "PLUS" "MINUS") (spiceModel "g45rm7")...
+
+Executing: attachParameter(w "w" _resm7)
+
+Executing: attachParameter(wSim "wSim" _resm7)
+
+Executing: attachParameter(l "l" _resm7)
+
+Executing: attachParameter(lSim "lSim" _resm7)
+
+Executing: extractRES("g45rm8" _resm8 (metal8_conn "PLUS" "MINUS") (spiceModel "g45rm8")...
+
+Executing: attachParameter(w "w" _resm8)
+
+Executing: attachParameter(wSim "wSim" _resm8)
+
+Executing: attachParameter(l "l" _resm8)
+
+Executing: attachParameter(lSim "lSim" _resm8)
+
+Executing: extractRES("g45rm9" _resm9 (metal9_conn "PLUS" "MINUS") (spiceModel "g45rm9")...
+
+Executing: attachParameter(w "w" _resm9)
+
+Executing: attachParameter(wSim "wSim" _resm9)
+
+Executing: attachParameter(l "l" _resm9)
+
+Executing: attachParameter(lSim "lSim" _resm9)
+
+Executing: extractRES("g45rm10" _resm10 (metal10_conn "PLUS" "MINUS") (spiceModel "g45rm...
+
+Executing: attachParameter(w "w" _resm10)
+
+Executing: attachParameter(wSim "wSim" _resm10)
+
+Executing: attachParameter(l "l" _resm10)
+
+Executing: attachParameter(lSim "lSim" _resm10)
+
+Executing: extractRES("g45rm11" _resm11 (metal11_conn "PLUS" "MINUS") (spiceModel "g45rm...
+
+Executing: attachParameter(w "w" _resm11)
+
+Executing: attachParameter(wSim "wSim" _resm11)
+
+Executing: attachParameter(l "l" _resm11)
+
+Executing: attachParameter(lSim "lSim" _resm11)
+
+Executing: extractRES("g45rsnd" _ressndiff (ndiff_conn "PLUS" "MINUS") (pwell "B") (spic...
+
+Executing: attachParameter(w "w" _ressndiff)
+
+Executing: attachParameter(wSim "wSim" _ressndiff)
+
+Executing: attachParameter(l "l" _ressndiff)
+
+Executing: attachParameter(lSim "lSim" _ressndiff)
+
+Executing: extractRES("g45rnsnd" _resnsndiff (ndiff_conn "PLUS" "MINUS") (pwell "B") (sp...
+
+Executing: attachParameter(w "w" _resnsndiff)
+
+Executing: attachParameter(wSim "wSim" _resnsndiff)
+
+Executing: attachParameter(l "l" _resnsndiff)
+
+Executing: attachParameter(lSim "lSim" _resnsndiff)
+
+Executing: extractRES("g45rsnp" _ressnpoly (poly_conn "PLUS" "MINUS") (pwell "B") (spice...
+
+Executing: attachParameter(w "w" _ressnpoly)
+
+Executing: attachParameter(wSim "wSim" _ressnpoly)
+
+Executing: attachParameter(l "l" _ressnpoly)
+
+Executing: attachParameter(lSim "lSim" _ressnpoly)
+
+Executing: extractRES("g45rsnp" _ressnpoly_nw (poly_conn "PLUS" "MINUS") (nwell_conn "B"...
+
+Executing: attachParameter(w "w" _ressnpoly_nw)
+
+Executing: attachParameter(wSim "wSim" _ressnpoly_nw)
+
+Executing: attachParameter(l "l" _ressnpoly_nw)
+
+Executing: attachParameter(lSim "lSim" _ressnpoly_nw)
+
+Executing: extractRES("g45rnsnp" _resnsnpoly (poly_conn "PLUS" "MINUS") (pwell "B") (spi...
+
+Executing: attachParameter(w "w" _resnsnpoly)
+
+Executing: attachParameter(wSim "wSim" _resnsnpoly)
+
+Executing: attachParameter(l "l" _resnsnpoly)
+
+Executing: attachParameter(lSim "lSim" _resnsnpoly)
+
+Executing: extractRES("g45rnsnp" _resnsnpoly_nw (poly_conn "PLUS" "MINUS") (nwell_conn "...
+
+Executing: attachParameter(w "w" _resnsnpoly_nw)
+
+Executing: attachParameter(wSim "wSim" _resnsnpoly_nw)
+
+Executing: attachParameter(l "l" _resnsnpoly_nw)
+
+Executing: attachParameter(lSim "lSim" _resnsnpoly_nw)
+
+Executing: extractRES("g45rspd" _resspdiff (pdiff_conn "PLUS" "MINUS") (nwell_conn "B") ...
+
+Executing: attachParameter(w "w" _resspdiff)
+
+Executing: attachParameter(wSim "wSim" _resspdiff)
+
+Executing: attachParameter(l "l" _resspdiff)
+
+Executing: attachParameter(lSim "lSim" _resspdiff)
+
+Executing: extractRES("g45rnspd" _resnspdiff (pdiff_conn "PLUS" "MINUS") (nwell_conn "B"...
+
+Executing: attachParameter(w "w" _resnspdiff)
+
+Executing: attachParameter(wSim "wSim" _resnspdiff)
+
+Executing: attachParameter(l "l" _resnspdiff)
+
+Executing: attachParameter(lSim "lSim" _resnspdiff)
+
+Executing: extractRES("g45rspp" _ressppoly (poly_conn "PLUS" "MINUS") (pwell "B") (spice...
+
+Executing: attachParameter(w "w" _ressppoly)
+
+Executing: attachParameter(wSim "wSim" _ressppoly)
+
+Executing: attachParameter(l "l" _ressppoly)
+
+Executing: attachParameter(lSim "lSim" _ressppoly)
+
+Executing: extractRES("g45rspp" _ressppoly_nw (poly_conn "PLUS" "MINUS") (nwell_conn "B"...
+
+Executing: attachParameter(w "w" _ressppoly_nw)
+
+Executing: attachParameter(wSim "wSim" _ressppoly_nw)
+
+Executing: attachParameter(l "l" _ressppoly_nw)
+
+Executing: attachParameter(lSim "lSim" _ressppoly_nw)
+
+Executing: extractRES("g45rnspp" _resnsppoly (poly_conn "PLUS" "MINUS") (pwell "B") (spi...
+
+Executing: attachParameter(w "w" _resnsppoly)
+
+Executing: attachParameter(wSim "wSim" _resnsppoly)
+
+Executing: attachParameter(l "l" _resnsppoly)
+
+Executing: attachParameter(lSim "lSim" _resnsppoly)
+
+Executing: extractRES("g45rnspp" _resnsppoly_nw (poly_conn "PLUS" "MINUS") (nwell_conn "...
+
+Executing: attachParameter(w "w" _resnsppoly_nw)
+
+Executing: attachParameter(wSim "wSim" _resnsppoly_nw)
+
+Executing: attachParameter(l "l" _resnsppoly_nw)
+
+Executing: attachParameter(lSim "lSim" _resnsppoly_nw)
+
+Executing: extractRES("g45rnws" _resnwsti (nwell_conn "PLUS" "MINUS") (pwell "B") (spice...
+
+Executing: attachParameter(w "w" _resnwsti)
+
+Executing: attachParameter(wSim "wSim" _resnwsti)
+
+Executing: attachParameter(l "l" _resnwsti)
+
+Executing: attachParameter(lSim "lSim" _resnwsti)
+
+Executing: extractRES("g45rnwo" _resnwoxide (nwell_conn "PLUS" "MINUS") (pwell "B") (spi...
+
+Executing: attachParameter(w "w" _resnwoxide)
+
+Executing: attachParameter(wSim "wSim" _resnwoxide)
+
+Executing: attachParameter(l "l" _resnwoxide)
+
+Executing: attachParameter(lSim "lSim" _resnwoxide)
+
+Executing: extractDIODE("g45nd1svt" _ndio (pwell "PLUS") (ndiff_conn "MINUS") (spiceMode...
+
+Executing: attachParameter(area "area" _ndio)
+
+Executing: attachParameter(pj "pj" _ndio)
+
+Executing: extractDIODE("g45nd1lvt" _ndio_lvt (pwell "PLUS") (ndiff_conn "MINUS") (spice...
+
+Executing: attachParameter(area "area" _ndio_lvt)
+
+Executing: attachParameter(pj "pj" _ndio_lvt)
+
+Executing: extractDIODE("g45nd1hvt" _ndio_hvt (pwell "PLUS") (ndiff_conn "MINUS") (spice...
+
+Executing: attachParameter(area "area" _ndio_hvt)
+
+Executing: attachParameter(pj "pj" _ndio_hvt)
+
+Executing: extractDIODE("g45nd1nvt" _ndio_nvt (pwell "PLUS") (ndiff_conn "MINUS") (spice...
+
+Executing: attachParameter(area "area" _ndio_nvt)
+
+Executing: attachParameter(pj "pj" _ndio_nvt)
+
+Executing: extractDIODE("g45nd2svt" _ndio_2v (pwell "PLUS") (ndiff_conn "MINUS") (spiceM...
+
+Executing: attachParameter(area "area" _ndio_2v)
+
+Executing: attachParameter(pj "pj" _ndio_2v)
+
+Executing: extractDIODE("g45nd2nvt" _ndio_2v_nvt (pwell "PLUS") (ndiff_conn "MINUS") (sp...
+
+Executing: attachParameter(area "area" _ndio_2v_nvt)
+
+Executing: attachParameter(pj "pj" _ndio_2v_nvt)
+
+Executing: extractDIODE("g45pd1svt" _pdio (pdiff_conn "PLUS") (nwell_conn "MINUS") (spic...
+
+Executing: attachParameter(area "area" _pdio)
+
+Executing: attachParameter(pj "pj" _pdio)
+
+Executing: extractDIODE("g45pd1lvt" _pdio_lvt (pdiff_conn "PLUS") (nwell_conn "MINUS") (...
+
+Executing: attachParameter(area "area" _pdio_lvt)
+
+Executing: attachParameter(pj "pj" _pdio_lvt)
+
+Executing: extractDIODE("g45pd1hvt" _pdio_hvt (pdiff_conn "PLUS") (nwell_conn "MINUS") (...
+
+Executing: attachParameter(area "area" _pdio_hvt)
+
+Executing: attachParameter(pj "pj" _pdio_hvt)
+
+Executing: extractDIODE("g45pd2svt" _pdio_2v (pdiff_conn "PLUS") (nwell_conn "MINUS") (s...
+
+Executing: attachParameter(area "area" _pdio_2v)
+
+Executing: attachParameter(pj "pj" _pdio_2v)
+
+Executing: extractBJT("g45vpnp2" _vpnp2 (pwell "C") (nwell_conn "B") (pdiff_conn "E") (s...
+
+Executing: attachParameter(area "area" _vpnp2)
+
+Executing: extractBJT("g45vpnp5" _vpnp5 (pwell "C") (nwell_conn "B") (pdiff_conn "E") (s...
+
+Executing: attachParameter(area "area" _vpnp5)
+
+Executing: extractBJT("g45vpnp10" _vpnp10 (pwell "C") (nwell_conn "B") (pdiff_conn "E") ...
+
+Executing: attachParameter(area "area" _vpnp10)
+
+Executing: extractBJT("g45vnpn2" _npn2 (nwell_conn "C") (pwell "B") (npn_emit "E") (spic...
+
+Executing: attachParameter(area "area" _npn2)
+
+Executing: extractBJT("g45vnpn5" _npn5 (nwell_conn "C") (pwell "B") (npn_emit "E") (spic...
+
+Executing: attachParameter(area "area" _npn5)
+
+Executing: extractBJT("g45vnpn10" _npn10 (nwell_conn "C") (pwell "B") (npn_emit "E") (sp...
+
+Executing: attachParameter(area "area" _npn10)
+
+Executing: extractCAP("g45cmim" _mimcap (CapMetal "PLUS") (metal10_conn "MINUS") (pwell ...
+
+Executing: attachParameter(w "w" _mimcap)
+
+Executing: attachParameter(l "l" _mimcap)
+
+Executing: attachParameter(c "c" _mimcap)
+
+Executing: attachParameter(area "area" _mimcap)
+
+Executing: attachParameter(perim "perim" _mimcap)
+
+Executing: extractDevice("g45inds" _ind_s (ind11 "PLUS") (ind11 "MINUS") (pwell "B") (bu...
+
+Executing: attachParameter(_inds_w "width" _ind_s)
+
+Executing: attachParameter(rad "rad" _ind_s)
+
+Executing: attachParameter(_inds_s "space" _ind_s)
+
+Executing: attachParameter(turns "nr" _ind_s)
+
+Executing: (saveInterconnect (Bondpad "Bondpad"))
+
+Executing: (saveInterconnect (metal11_conn "Metal11"))
+
+Executing: (saveInterconnect (metal10_conn "Metal10"))
+
+Executing: (saveInterconnect (metal9_conn "Metal9"))
+
+Executing: (saveInterconnect (metal8_conn "Metal8"))
+
+Executing: (saveInterconnect (metal7_conn "Metal7"))
+
+Executing: (saveInterconnect (metal6_conn "Metal6"))
+
+Executing: (saveInterconnect (metal5_conn "Metal5"))
+
+Executing: (saveInterconnect (metal4_conn "Metal4"))
+
+Executing: (saveInterconnect (metal3_conn "Metal3"))
+
+Executing: (saveInterconnect (metal2_conn "Metal2"))
+
+Executing: (saveInterconnect (metal1_conn "Metal1"))
+
+Executing: (saveInterconnect (pdiff_conn "Pimp"))
+
+Executing: (saveInterconnect (ndiff_conn "Nimp"))
+
+Executing: (saveInterconnect (nwell_conn "Nwell"))
+
+Executing: (saveInterconnect (CapMetal "CapMetal"))
+
+Executing: (saveInterconnect (poly_conn "Poly"))
+
+Executing: (saveInterconnect (npn_emit "Nimp"))
+
+Executing: (saveInterconnect (Nburied "Nburied"))
+
+Executing: (saveInterconnect (ind11 "Metal11"))
+
+Executing: (saveInterconnect (metal11_conn "Metal11"))
+
+Executing: (saveInterconnect (ind_ct "Metal11"))
+
+Executing: (saveInterconnect (ind10 "Metal10"))
+
+Executing: (saveInterconnect (metal10_conn "Metal10"))
+
+Executing: (saveInterconnect (metal9_conn "Metal9"))
+
+Executing: (saveInterconnect (metal8_conn "Metal8"))
+
+Executing: (saveInterconnect (metal7_conn "Metal7"))
+
+Executing: (saveInterconnect (metal6_conn "Metal6"))
+
+Executing: (saveInterconnect (metal5_conn "Metal5"))
+
+Executing: (saveInterconnect (metal4_conn "Metal4"))
+
+Executing: (saveInterconnect (metal3_conn "Metal3"))
+
+Executing: (saveInterconnect (metal2_conn "Metal2"))
+
+Executing: (saveInterconnect (metal1_conn "Metal1"))
+
+Executing: (saveInterconnect (pdiff_conn "Pimp"))
+
+Executing: (saveInterconnect (ndiff_conn "Nimp"))
+
+Executing: (saveInterconnect (nwell_conn "Nwell"))
+
+Executing: (saveInterconnect (CapMetal "CapMetal"))
+
+Executing: (saveInterconnect (poly_conn "Poly"))
+
+Executing: (saveInterconnect (pnp_emit "Pimp"))
+
+Executing: (saveInterconnect (npn_emit "Nimp"))
+
+Executing: (saveInterconnect (Nburied "Nburied"))
+
+Finished running rules. Task processor time in main process:
+cpu: 0.32  elap: 1  pf: 0  in: 0  out: 736  virt: 147M  phys: 720M
+
+No output post-processing: This is not a DRC run
+
+Finished building the persistent database.
+cpu: 0.01  elap: 1  pf: 0  in: 0  out: 6472  virt: 152M  phys: 733M
+
+
+*****  aveng terminated normally  *****
+
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/aveng
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/avrpt /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -exec1
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+@(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:43 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/avrpt on Fri Dec  6 12:59:32 2019
+
+
+   Creating Error Database 'Integrated'...
+
+   Reading VDB ...
+--------------------------------------------------------------------------------
+Rule      Message                                    FlatCount     RealCount
+--------------------------------------------------------------------------------
+(    1)  dataAuditErrors                                     0            0
+(    2)  SI g45inda connectionErrors                         0            0
+(    3)  SI g45inda spacingErrors                            0            0
+(    4)  SI g45inda innerDiameterErrors                      0            0
+(    5)  SI g45inda widthErrors                              0            0
+(    6)  ptap_StampErrorFloat                                0            0
+(    7)  ptap_StampErrorMult                                 0            0
+(    8)  ptap_StampErrorConnect                              0            0
+(    9)  pwell_StampErrorFloat                               0            0
+(   10)  pwell_StampErrorMult                                0            0
+(   11)  pwell_StampErrorConnect                             0            0
+(   12)  ntap_StampErrorFloat                                0            0
+(   13)  ntap_StampErrorMult                                 0            0
+(   14)  ntap_StampErrorConnect                              0            0
+(   15)  nwell_conn_StampErrorFloat                          0            0
+(   16)  nwell_conn_StampErrorMult                           0            0
+(   17)  nwell_conn_StampErrorConnect                        0            0
+(   18)  nb_tap_StampErrorFloat                              0            0
+(   19)  nb_tap_StampErrorMult                               0            0
+(   20)  nb_tap_StampErrorConnect                            0            0
+(   21)  Nburied_StampErrorFloat                             0            0
+(   22)  Nburied_StampErrorMult                              0            0
+(   23)  Nburied_StampErrorConnect                           0            0
+(   24)  ptap_StampErrorFloat                                0            0
+(   25)  ptap_StampErrorMult                                 0            0
+(   26)  ptap_StampErrorConnect                              0            0
+(   27)  pwell_StampErrorFloat                               0            0
+(   28)  pwell_StampErrorMult                                0            0
+(   29)  pwell_StampErrorConnect                             0            0
+(   30)  ntap_StampErrorFloat                                0            0
+(   31)  ntap_StampErrorMult                                 0            0
+(   32)  ntap_StampErrorConnect                              0            0
+(   33)  nwell_conn_StampErrorFloat                          0            0
+(   34)  nwell_conn_StampErrorMult                           0            0
+(   35)  nwell_conn_StampErrorConnect                        0            0
+(   36)  nb_tap_StampErrorFloat                              0            0
+(   37)  nb_tap_StampErrorMult                               0            0
+(   38)  nb_tap_StampErrorConnect                            0            0
+(   39)  Nburied_StampErrorFloat                             0            0
+(   40)  Nburied_StampErrorMult                              0            0
+(   41)  Nburied_StampErrorConnect                           0            0
+(   42)  all malformed SI g45inda                            0            0
+(   43)  malformed device RECOG_NEW_T?472                    0            0
+(   44)  malformed device _nmos1v                            0            0
+(   45)  malformed device _nmos1v_hvt                        0            0
+(   46)  malformed device _nmos1v_lvt                        0            0
+(   47)  malformed device _nmos_12_native                    0            0
+(   48)  malformed device _nmos_25                           0            0
+(   49)  malformed device _nmos_25_native                    0            0
+(   50)  malformed device _nmoscap1v                         0            0
+(   51)  malformed device _nmoscap2v                         0            0
+(   52)  malformed device _pmos1v                            0            0
+(   53)  malformed device _pmos1v_hvt                        0            0
+(   54)  malformed device _pmos1v_lvt                        0            0
+(   55)  malformed device _pmos2v                            0            0
+(   56)  malformed device _pmoscap1v                         0            0
+(   57)  malformed device _pmoscap2v                         0            0
+(   58)  malformed device _resm1                             0            0
+(   59)  malformed device _resm2                             0            0
+(   60)  malformed device _resm3                             0            0
+(   61)  malformed device _resm4                             0            0
+(   62)  malformed device _resm5                             0            0
+(   63)  malformed device _resm6                             0            0
+(   64)  malformed device _resm7                             0            0
+(   65)  malformed device _resm8                             0            0
+(   66)  malformed device _resm9                             0            0
+(   67)  malformed device _resm10                            0            0
+(   68)  malformed device _resm11                            0            0
+(   69)  malformed device _ressndiff                         0            0
+(   70)  malformed device _resnsndiff                        0            0
+(   71)  malformed device _ressnpoly                         0            0
+(   72)  malformed device _ressnpoly_nw                      0            0
+(   73)  malformed device _resnsnpoly                        0            0
+(   74)  malformed device _resnsnpoly_nw                     0            0
+(   75)  malformed device _resspdiff                         0            0
+(   76)  malformed device _resnspdiff                        0            0
+(   77)  malformed device _ressppoly                         0            0
+(   78)  malformed device _ressppoly_nw                      0            0
+(   79)  malformed device _resnsppoly                        0            0
+(   80)  malformed device _resnsppoly_nw                     0            0
+(   81)  malformed device _resnwsti                          0            0
+(   82)  malformed device _resnwoxide                        0            0
+(   83)  malformed device _ndio                              0            0
+(   84)  malformed device _ndio_lvt                          0            0
+(   85)  malformed device _ndio_hvt                          0            0
+(   86)  malformed device _ndio_nvt                          0            0
+(   87)  malformed device _ndio_2v                           0            0
+(   88)  malformed device _ndio_2v_nvt                       0            0
+(   89)  malformed device _pdio                              0            0
+(   90)  malformed device _pdio_lvt                          0            0
+(   91)  malformed device _pdio_hvt                          0            0
+(   92)  malformed device _pdio_2v                           0            0
+(   93)  malformed device _vpnp2                             0            0
+(   94)  malformed device _vpnp5                             0            0
+(   95)  malformed device _vpnp10                            0            0
+(   96)  malformed device _npn2                              0            0
+(   97)  malformed device _npn5                              0            0
+(   98)  malformed device _npn10                             0            0
+(   99)  malformed device _mimcap                            0            0
+(  100)  malformed device _ind_s                             0            0
+(  101)  unstable device for _ind_s_Device_58                0            0
+(  103)  unstable device for _mimcap_CAP_57                  0            0
+(  105)  unstable device for _npn10_BJT_56                   0            0
+(  107)  unstable device for _npn5_BJT_55                    0            0
+(  109)  unstable device for _npn2_BJT_54                    0            0
+(  111)  unstable device for _vpnp10_BJT_53                  0            0
+(  113)  unstable device for _vpnp5_BJT_52                   0            0
+(  115)  unstable device for _vpnp2_BJT_51                   0            0
+(  117)  unstable device for _pdio_2v_DIODE_50               0            0
+(  119)  unstable device for _pdio_hvt_DIODE_49              0            0
+(  121)  unstable device for _pdio_lvt_DIODE_48              0            0
+(  123)  unstable device for _pdio_DIODE_47                  0            0
+(  125)  unstable device for _ndio_2v_nvt_DIODE_4            0            0
+(  127)  unstable device for _ndio_2v_DIODE_45               0            0
+(  129)  unstable device for _ndio_nvt_DIODE_44              0            0
+(  131)  unstable device for _ndio_hvt_DIODE_43              0            0
+(  133)  unstable device for _ndio_lvt_DIODE_42              0            0
+(  135)  unstable device for _ndio_DIODE_41                  0            0
+(  137)  unstable device for _resnwoxide_RES_40              0            0
+(  139)  unstable device for _resnwsti_RES_39                0            0
+(  141)  unstable device for _resnsppoly_nw_RES_3            0            0
+(  143)  unstable device for _resnsppoly_RES_37              0            0
+(  145)  unstable device for _ressppoly_nw_RES_36            0            0
+(  147)  unstable device for _ressppoly_RES_35               0            0
+(  149)  unstable device for _resnspdiff_RES_34              0            0
+(  151)  unstable device for _resspdiff_RES_33               0            0
+(  153)  unstable device for _resnsnpoly_nw_RES_3            0            0
+(  155)  unstable device for _resnsnpoly_RES_31              0            0
+(  157)  unstable device for _ressnpoly_nw_RES_30            0            0
+(  159)  unstable device for _ressnpoly_RES_29               0            0
+(  161)  unstable device for _resnsndiff_RES_28              0            0
+(  163)  unstable device for _ressndiff_RES_27               0            0
+(  165)  unstable device for _resm11_RES_26                  0            0
+(  167)  unstable device for _resm10_RES_25                  0            0
+(  169)  unstable device for _resm9_RES_24                   0            0
+(  171)  unstable device for _resm8_RES_23                   0            0
+(  173)  unstable device for _resm7_RES_22                   0            0
+(  175)  unstable device for _resm6_RES_21                   0            0
+(  177)  unstable device for _resm5_RES_20                   0            0
+(  179)  unstable device for _resm4_RES_19                   0            0
+(  181)  unstable device for _resm3_RES_18                   0            0
+(  183)  unstable device for _resm2_RES_17                   0            0
+(  185)  unstable device for _resm1_RES_16                   0            0
+(  187)  unstable device for _pmoscap2v_MOS_15               0            0
+(  189)  unstable device for _pmoscap1v_MOS_14               0            0
+(  191)  unstable device for _pmos2v_MOS_13                  0            0
+(  193)  unstable device for _pmos1v_lvt_MOS_12              0            0
+(  195)  unstable device for _pmos1v_hvt_MOS_11              0            0
+(  197)  unstable device for _pmos1v_MOS_10                  0            0
+(  199)  unstable device for _nmoscap2v_MOS_9                0            0
+(  201)  unstable device for _nmoscap1v_MOS_8                0            0
+(  203)  unstable device for _nmos_25_native_MOS_            0            0
+(  205)  unstable device for _nmos_25_MOS_6                  0            0
+(  207)  unstable device for _nmos_12_native_MOS_            0            0
+(  209)  unstable device for _nmos1v_lvt_MOS_4               0            0
+(  211)  unstable device for _nmos1v_hvt_MOS_3               0            0
+(  213)  unstable device for _nmos1v_MOS_2                   0            0
+(  215)  unstable device for DEVICE_LAYER_RECOG_N            0            0
+--------------------------------------------------------------------------------
+Total  errors:                                               0            0
+--------------------------------------------------------------------------------
+
+   Finished creating Error Database ...
+
+   Writing Report into ./Integrated.err ...
+
+avrpt cpu sec:    0.06  elapsed:     0  virtual:    93M
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/avrpt
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/avcallproc /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -exec1 -LVS -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/avcallproc
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/avnx /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -exec1 -LVS -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+*WARNING* Failed to obtain license for Assura_LVS
+@(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:42 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+
+run on ece-n241-lnx09 from /ecel/apps/cds/assura/tools.lnx86/assura/bin/64bit/avnx on Fri Dec  6 12:59:33 2019
+
+avnx started...
+cpu: 0.10  elap: 0  pf: 0  in: 16  out: 88  virt: 576M  phys: 807M
+
+Run time =  0.00 seconds
+CPU time =  0.12 seconds
+
+                  End of Summary Report
+
+************************************************************************
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13184  virt: 503M  phys: 807M
+***** avnx terminated normally ***** 
+
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/avnx
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/nvn /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -postExtract -exec1 -cdslib /ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 08/14/2018 06:45 (sjfnl784) $
+sub-version 4.1_USR5_HF16, integ signature 2018-08-14-0622
+run on ece-n241-lnx09 at Fri Dec  6 12:59:33 2019
+
+*************************************************************** 
+
+  GENERIC PDK Assura Compare Rules file 
+  Cadence Design Systems shall not be liable for the accuracy 
+  of this LVS rule file or its ability to capture errors. 
+  The user is responsible for thoroughly testing and 
+  implementing its features. 
+
+*************************************************************** 
+
+Reading schematic network
+Reading layout network
+ inputting network Integrated.ldb
+Preprocessing schematic network phase 1
+Preprocessing layout network phase 1
+*WARNING* deleteCellPin - Unable to find cell 'g45inds'
+Preprocessing schematic network phase 2
+Preprocessing layout network phase 2
+Comparing inverter schematic Combined_all vs inverter layout Combined_all
+Comparing Buffer schematic Combined_all vs Buffer layout Combined_all
+ Expanding inverter:  binding cell missing on layout.
+Comparing RD_WR schematic Combined_all vs RD_WR layout Combined_all
+ Expanding Buffer:  binding cell missing on layout.
+ Expanding inverter:  binding cell missing on layout.
+Comparing nor schematic Combined_all vs nor layout Combined_all
+Comparing threetoeight schematic Combined_all vs threetoeight layout Combined_all
+Comparing SRAM8x2 schematic Combined_all vs SRAM8x2 SRAM_8x2_Layout Combined_all
+Comparing Sense_AMP schematic Combined_all vs Sense_AMP layout Combined_all
+Comparing onetotwo schematic Combined_all vs onetotwo layout Combined_all
+Top cell  Integrated schematic Combined_all vs Integrated layout Combined_all
+Schematic and Layout Match
+cpu=0.00m  wall=0.00m  mem=105.30mb
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/nvn
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/vldbToRpa Integrated.snn Integrated.tre Integrated.cel
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/vldbToRpa
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/vldbToRpa Integrated.lnn Integrated.tre2 Integrated.cel2
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/vldbToRpa
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/ercChk /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib 'Combined'.
+*WARNING* The directory: '/ecel/UFAD/medini.aradhya/Desktop/Cadence/123' does not exist
+	but was defined in libFile '/ecel/UFAD/medini.aradhya/Desktop/Cadence/cds.lib' for Lib '123'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/ercChk
+
+Starting /apps/cds/assura//tools.lnx86/assura/bin/avcallproc /ecel/UFAD/medini.aradhya/Desktop/Cadence/Integrated.rsf -trp -exec1
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Loading tech rule set file : /ecel/apps/cds/ic617/local/GPDK045/assura/techRuleSets
+
+Finished /apps/cds/assura//tools.lnx86/assura/bin/avcallproc
+
+
+Assura LVS terminated normally.
+
+
+
+Run ended: Fri Dec  6 12:59:34 2019
+
+*****  Assura terminated normally  *****
+

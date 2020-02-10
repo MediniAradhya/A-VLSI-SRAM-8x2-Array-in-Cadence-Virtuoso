@@ -1,0 +1,97 @@
+@(#)$CDS: LVS version 6.1.7-64b 11/21/2017 20:15 (sjfhw306) $
+
+Command line: /ecel/apps/cds/ic617/tools.lnx86/dfII/bin/64bit/LVS -dir /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS -l -s -t /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/layout /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+    Net-list summary for /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/layout/netlist
+       count
+        9               nets
+        5               terminals
+        5               g45p1svt
+        5               g45n1svt
+
+    Net-list summary for /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/schematic/netlist
+       count
+        9               nets
+        5               terminals
+        5               g45p1svt
+        5               g45n1svt
+
+
+    Terminal correspondence points
+    N6        N4        CLK1
+    N4        N3        GND
+    N7        N5        IN
+    N5        N6        OUT
+    N8        N2        VDD
+
+Devices in the netlist but not in the rules:
+        g45p1svt g45n1svt
+
+The net-lists failed to match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 2       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  10      10     
+        total                   10      10     
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  9       9      
+        total                   9       9      
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          2       2      
+        total                   5       5      
+
+
+Probe files from /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal CLK1's type in the schematic: input, in the layout: output
+? Terminal IN's type in the schematic: input, in the layout: output
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /ecel/UFAD/medini.aradhya/Desktop/Cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+T /+1 D /6
+? Terminal "D" on device /+1 should be connected to /GND instead of /6
+T /+0 S /GND
+? Terminal "S" on device /+0 should be connected to /6 instead of /GND
+? Terminal CLK1's type in the layout: output, in the schematic: input
+? Terminal IN's type in the layout: output, in the schematic: input
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      medini.aradhya
+HostName                       ece-n241-lnx05
+ProcessIdentifier              8722
+ProcessCreationTime_UTC        1575595877
+ProcessCreationTime_Readable   Thu Dec  5 20:31:17 2019 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /ecel/UFAD/medini.aradhya/Desktop/Cadence/Combined_all/SRAM8x2/SRAM_8x2_Layout/layout.oa.cdslck.dirlck
+TimeEditLocked                 Thu Dec  5 20:54:18 2019 EST
